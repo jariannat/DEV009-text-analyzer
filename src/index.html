@@ -13,23 +13,30 @@
     <h1 >Analizador de texto</h1>
    
     <!-- pantalla principal-->
-<h2> <em>El analizador de texto es una herramienta en línea para el análisis de texto completo. Como palabras, letras, numeros, espacios, longitud...</h2></em>
+<h2> <em>Aqui, podrás analizar cuentas palabras, caracteres, numeros...tiene tu texto.</em> </h2>
 
 <!-- cuadro de texto-->
-<label> Escribe aqui:</label>
-<textarea name= "textarea"> </textarea>
-<ul>
-    <li>Recuento de palabras</li>
-    <li>Recuento de caracteres</li>
-    <li>Recuento de caracteres excluyendo espacios y signos de puntuación</li>
-    <li>Recuento de números</li>
-    <li>Suma total de números</li>
-    <li>Longitud media de las palabras</li>
+<label>Escribe aqui: </label>
+<textarea name= "user-input" rows="10" cols="50"></textarea>
+<ul class="questions">
+    <li class="chracters">Caracteres:<span class="countChars">0</span></li>
+    <li class="nospaces">Caracteres sin espacios:<span class="excluding">0</span></li>
+    <li class="words"> Palabras: <span class="caracteres">0</span></li>
+    <li class="numbers">Números:<span class="numbersCount">0</span></li>
+    <li class="totalnumbers">Suma de números:<span class="lengthNumbers">0</span></li>
+    <li class="length">Longitud:<span class="lengthCount">0</span></li>
 </ul>
 
-<button id:clean>limpiar</button>
+
+
+<!-- boton para resetear-->
+<button id="reset-button">limpiar</button>
+
+
+
+
 <footer>
-    <p>jp</p>
+    <p>Jarianna Pacheco</p>
 </footer>
 </header>
 
